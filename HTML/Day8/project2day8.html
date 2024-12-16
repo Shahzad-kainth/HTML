@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>IT JEE Registration form</legend>
+        <!--Name-->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="fname">
+        <br><br>
+        <!--Email-->
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="femail">
+        <br><br>
+        <!--Phone-->
+        <label for="Phone">Phone:</label>
+        <input type="tel" id="Phone" name="fphone">
+        <br><br>
+        <!--Password-->
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" name="fpassword">
+        <br><br>
+        <!--Gender-->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="fgender">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="fgender">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="fgender">
+        <label for="other">Other:</label>
+        <br><br>
+        <!--DOB-->
+        <label for="date">DOB:</label>
+        <input type="date" id="date"min="2001-01-01" max="2005-12-3"  name="fdate">
+        <br><br>
+        <!--School Name-->
+        <label for="sname">School Name:</label>
+        <input type="text" id="sname" name="fschoolname">
+        <br><br>
+        <!--Board-->
+        <label for="Board">Board:</label>
+        <select  id="Board" name="fboard">
+            <option value="">Select your Board</option>
+            <option value="Bise Fsd">Bise Fsd</option>
+            <option value="Bise Lahore">Bise Lahore</option>
+            <option value="Bise Sahiwal">Bise Sahiwal</option>
+            <option value="Bise Gujranwala">Bise Gujranwala</option>
+        </select>
+        <br><br>
+        <!--year of passing-->
+        <label for="year">Year of Passing:</label>
+        <input type="number" id="year" name="fyear" min="2022" max="2025">
+        <br><br>
+        <!--Exam Centre-->
+        <label for="exam">Exam Centre:</label>
+        <select  id="exam" name="fexam">
+            <option>Select Exam City</option>
+            <option value="Faisalabad">Faisalabad</option>
+            <option value="Lahore">Lahore</option>
+            <option value="Sahiwal">Sahiwal</option>
+            <option value="Gujranwala">Gujranwala</option>
+            <option value="Sargodha">Sargodha</option>
+            <option value="Islamabad">Islamabad</option>
+        </select>
+        <br><br>
+        <button>Register</button>
+        </fieldset>
+    </form>
+</body>
+</html>

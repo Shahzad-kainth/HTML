@@ -1,0 +1,14 @@
+/*universal selector*/
+body{
+    background-color: bisque;
+}
+/*Group selector*/
+h3,h2,p{
+    background-color: aqua;
+}
+/*attribute selector*/
+h5[draggable="true"]{
+    background-color: brown;
+}
+/*decendant selector*/
+/*child selector*/

@@ -1,0 +1,27 @@
+<style>
+      h1{
+        color:blue;
+        background-color:green;
+      }
+      h2{
+        color: aqua;
+        background-color: black;
+      }
+      ul{
+        background-color: blue;
+      }
+      /*select by class name*/
+      /*You need to apply dot(.) first*/
+      .first{
+        background-color:blue
+      }
+      .second{
+        background-color: blueviolet;
+      }
+      /*select by id(unique)
+      # ku use krna ha than id name*/
+
+      #third{
+        background-color: pink;
+      }
+    </style>
